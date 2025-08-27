@@ -1,0 +1,33 @@
+* {
+  /* zera margens e padding de todos os elementos */
+  margin: 0;
+  padding: 20px;
+  /* Faz com que o tamanho total dos elementos (width e height) inclua
+    o padding e a borda, evitando alterações indesejadas no tamanho.
+    Isso facilita o controle do layout e evita que elementos "vazem"
+    para fora do seu contêiner. */
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.perfil {
+  display: flex;
+  align-items: flex-start;
+  background-color: rgb(81, 156, 255);
+  color: whitesmoke;
+  border-radius: 20px;
+}
+
+.perfil header p {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px; /* fonte menor */
+}
+
+.perfil h1 {
+  font-size: 30px;
+}
+
+.img {
+  width: 200px;
+  border-radius: 12px;
+}
