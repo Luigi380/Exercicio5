@@ -7,23 +7,70 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <main>
-      <section class="perfil">
-        <header>
-          <h1>Luigi de Souza</h1>
-          <p>Rede Social:<a href="https://github.com/Luigi380">GitHub</a></p>
+    <!-- 
+     Main: Conteúdo principal da página
+     Article: Conteúdo independente (faz sentido sozinho)
+     Section: Agrupa conteúdos relacionados
+    -->
+    <main class="container">
+      <header id="main-header">
+        <h1>Luigi de Souza</h1>
+        <address>
+          <p>Rede Social</p>
           <p>Idade: 17</p>
-          <p>
-            Email:<a href="mailto:luigi.de.sou@gmail.com"
-              >luigi.de.sou@gmail.com
-            </a>
-          </p>
-        </header>
+          <p>Email: luigi.de.sou@gmail.com</p>
+        </address>
+        <img src="../img/Luigi.png" alt="Avatar" width="200px" />
+      </header>
 
-        <figure>
-          <img src="../img/Luigi.png" alt="Avatar" class="img" />
-        </figure>
-      </section>
+      <article>
+        <h2>Informações Profissionais</h2>
+        <ol>
+          <li>
+            <h3 class="titulo">Formações Acadêmicas</h3>
+
+            <section>
+              <p>
+                <strong>2024 - 2025</strong> |
+                <a href="https://serra.ifes.edu.br/" target="_blank"
+                  >Instituto Federal do Espitito Santo (IFES)</a
+                >
+              </p>
+              <p id="subtexto">Técino de Informática</p>
+            </section>
+
+            <section>
+              <p>
+                <strong>2023 - 2025</strong> |
+                <a
+                  href="https://www.instagram.com/agenorrorisoficial/"
+                  target="_blank"
+                  >EEEM Professor Agenor Roris (AR)</a
+                >
+              </p>
+              <p id="subtexto">Ensino Médio</p>
+            </section>
+          </li>
+
+          <li>
+            <h3 class="titulo">Formações Complementares</h3>
+
+            <section>
+              <p><strong>2017 - 2020</strong></p>
+              <p id="subtexto">Inglês</p>
+            </section>
+          </li>
+
+          <li>
+            <h3 class="titulo">Soft Skills</h3>
+
+            <section>
+              <p><a href="#">Trabalho em Equipe</a></p>
+              <p><a href="#">Empatia</a></p>
+            </section>
+          </li>
+        </ol>
+      </article>
     </main>
   </body>
 </html>
