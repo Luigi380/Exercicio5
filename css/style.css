@@ -23,15 +23,21 @@ body{
 
 #main-header{
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* O linear-gradient cria um degrade entre 2 ou mais cores */
-  color: black;
+  color: white;
   padding: 20px;
   display: flex; /* Define como um elemento HTML será exibido na página. O Flex organiza os elementos em linha ou coluna */
   align-items: center; /* Controla o alinhamento dos itens no eixo transversal */
+  justify-content: space-between; /* Cria espaço entre o bloco de texto e a imagem */
   gap: 20px; /* Define o espaçamento entre os itens filhos dentro de um container */
 }
 
+.info-pessoal {
+  display: flex; /* Define um container flex para os elementos internos */
+  flex-direction: column; /* Força o h1 e o address a ficarem em coluna (um abaixo do outro) */
+}
+
 #main-header h1{
-  font-size: 30px; /* Define o tamanho da fonte */
+  font-size: 35px; /* Define o tamanho da fonte */
   margin-bottom: 10px; /* Define o espaçamento externo na parte inferior de um elemento */
   font-weight: bold; /* Controla o peso/grossura da fonte  */
 }
